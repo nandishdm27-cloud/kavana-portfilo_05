@@ -294,7 +294,7 @@ function Portfolio() {
         </Section>
 
         {/* Skills */}
-        <Section id="skills" eyebrow="02 — Skills" title="Technical &amp; professional toolkit">
+        <Section id="skills" eyebrow="02 — Skills" title="Technical & professional toolkit">
           <div className="grid gap-10 sm:grid-cols-2">
             {SKILLS.map((s) => (
               <div key={s.group}>
@@ -389,7 +389,7 @@ function Portfolio() {
         </Section>
 
         {/* Achievements */}
-        <Section id="achievements" eyebrow="06 — Achievements" title="Recognition &amp; milestones">
+        <Section id="achievements" eyebrow="06 — Achievements" title="Recognition & milestones">
           <div className="grid gap-px bg-border sm:grid-cols-2">
             {ACHIEVEMENTS.map((a) => (
               <div key={a.title} className="bg-background p-7">
@@ -401,7 +401,7 @@ function Portfolio() {
         </Section>
 
         {/* Experience */}
-        <Section id="experience" eyebrow="07 — Experience" title="Roles &amp; contributions">
+        <Section id="experience" eyebrow="07 — Experience" title="Roles & contributions">
           <div className="space-y-10">
             {EXPERIENCE.map((e) => (
               <div key={e.title} className="grid gap-2 sm:grid-cols-[150px_1fr] sm:gap-8">
